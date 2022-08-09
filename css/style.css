@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.863);
+    align-items: center;
+    justify-content: center;
+
+  
+}
+.back {
+    height: 95vh;
+    width: 700px;
+    display: flex;
+    background-color: rgb(255, 251, 246);
+    border: 2px solid black;
+}
+.foto {
+    height: 300px;
+    width: 250px;
+    padding-left: 30px;
+    padding-top: 30PX;
+
+}
