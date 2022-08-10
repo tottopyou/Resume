@@ -13,6 +13,7 @@ body {
     display: flex;
     background-color: rgb(255, 251, 246);
     border: 2px solid black;
+    flex-flow: row wrap;
 }
 
 .foto {
@@ -42,4 +43,20 @@ h3{
 }
 h2{
     font-weight: 500;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+}
+.contact 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    
+}
+a{
+    padding: 10px;
 }
